@@ -1,0 +1,6 @@
+CREATE DATABASE testdb;
+
+CREATE TABLE Tbl_Roles (
+role_id SERIAL PRIMARY KEY,
+role_name VARCHAR(50)
+);
